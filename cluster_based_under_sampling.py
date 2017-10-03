@@ -1,14 +1,10 @@
 import numpy as np
-from sklearn.metrics import roc_curve, precision_recall_curve
-from scipy import interp
 import pandas as pd
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import Normalizer
 from sklearn.tree import DecisionTreeClassifier
-import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
-import math
 from sklearn.metrics import roc_auc_score, average_precision_score
 from sklearn.model_selection import StratifiedKFold
 
