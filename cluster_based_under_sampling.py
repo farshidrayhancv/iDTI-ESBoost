@@ -86,6 +86,8 @@ for train_index, test_index in skf.split(X, y):
         learning_rate=1, algorithm='SAMME')
 
     classifier.fit(X_sampled, y_sampled)
+    
+    X_test = normalization_object.transform(X_test)
 
     predictions = classifier.predict_proba(X_test)
 
