@@ -22,6 +22,8 @@ spider_to_bigram_generator.py file was used to create the feature set D
 
 Use the codes named  
 
-cluster_based_under_sampling.py and random_under_sampling.py  
+cluster_based_under_sampling.py  
+and  
+random_under_sampling.py    
 
 for experimenting a dataset with a classifier.     
