@@ -6,24 +6,22 @@ Prediction of new drug-target interactions is extremely important as it can lead
 
 ## Feature Generation codes
 
-PSSM bigram => A
-pssm_to_bigram_generator.py file was used to create the feature set A
+PSSM bigram => A   
+pssm_to_bigram_generator.py file was used to create the feature set A  
 
-Accessible Surface Area Composition + Secondary Structure Composition + Torsional Angles Composition => B
-creating_structural_info.py file was used to create the feature set B
+Accessible Surface Area Composition + Secondary Structure Composition + Torsional Angles Composition => B  
+creating_structural_info.py file was used to create the feature set B  
 
-Torsional Angles Auto-Covariance + Structural Probabilities Auto-Covariance => C
-spider_to_auto_covar_generator.py file was used to create the feature set C
+Torsional Angles Auto-Covariance + Structural Probabilities Auto-Covariance => C  
+spider_to_auto_covar_generator.py file was used to create the feature set C  
 
-Torsional Angles bigram + Structural Probabilities bigram => D 
-spider_to_bigram_generator.py file was used to create the feature set D
+Torsional Angles bigram + Structural Probabilities bigram => D   
+spider_to_bigram_generator.py file was used to create the feature set D  
 
 ## Experiments 
 
-Use the codes named 
+Use the codes named  
 
-# cluster_based_under_sampling.py 
-and
-# random_under_sampling.py
+cluster_based_under_sampling.py and random_under_sampling.py  
 
-for experimenting a dataset with a classifier.   
+for experimenting a dataset with a classifier.     
